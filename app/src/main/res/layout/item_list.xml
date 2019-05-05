@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:layout_height="wrap_content">
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Nama Mobil"
+              android:id="@+id/nama_mobil"
+              android:textSize="24sp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Harga Mobil"
+              android:id="@+id/harga_mobil"
+              android:textStyle="bold"
+              android:textSize="20sp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Warna Mobil"
+              android:id="@+id/warna_mobil"
+              android:textSize="18sp"/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SkorActivity">
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_1_a"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="+1"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_2_a"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:text="+2"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_3_a"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="+3"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_1_b"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:text="+1"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_2_b"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:text="+2"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_3_b"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="+3"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/tv_skorA"
+              android:text="0"
+              android:layout_below="@id/button_2_a"
+              android:layout_centerInParent="true"
+              android:textSize="48sp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/tv_timA"
+              android:text="Nama Tim A"
+              android:layout_below="@id/tv_skorA"
+              android:layout_centerInParent="true"
+              android:textSize="20sp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/tv_skorB"
+              android:text="0"
+              android:layout_above="@id/button_2_b"
+              android:layout_centerInParent="true"
+              android:textSize="48sp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/tv_timB"
+              android:text="Nama Tim B"
+              android:layout_above="@id/tv_skorB"
+              android:layout_centerInParent="true"
+              android:textSize="20sp"/>
+
+</RelativeLayout>
